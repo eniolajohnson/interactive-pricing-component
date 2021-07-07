@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  background-image: url(./images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  font-family: 'Manrope', sans-serif;
+}
+
+.header {
+  margin-top: 3%;
+}
+
+.header h1{
+  font-size: 28px;
+  font-weight: 800;
+  padding-bottom: 2%;
+}
+
+.header p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a {
+ color: hsl(228, 45%, 44%); 
+}
